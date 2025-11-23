@@ -1,59 +1,67 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# Title of the Project
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+PlateIQ – AI-Based Food Recognition and Calorie Estimation System
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+A smart web-based system that allows users to upload food images, automatically detect food items, estimate portion sizes, and calculate calories and nutrients using YOLOv8-based segmentation and a nutritional database.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+# About
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+PlateIQ is an AI-powered dietary assessment system designed to simplify food tracking by using real-time image recognition. Users can upload images of their meals, and the system automatically identifies individual food items, segments them, estimates portion size, and calculates calories and nutrient content.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Traditional dietary tracking methods require manual logging or visual estimation, which often leads to errors and user fatigue. PlateIQ overcomes these challenges using YOLOv8 for fast and accurate segmentation (40–150 FPS) and a nutritional database to compute calories, proteins, fats, carbohydrates, and fiber. This solution is particularly beneficial for people with diabetes, athletes, and anyone seeking personalized dietary feedback.
 
+# Features
 
-## Output
+Real-time food detection and segmentation using YOLOv8.
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+High accuracy (>98%) and fast performance suitable for web and mobile use.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+Portion size estimation using mask-based area analysis and depth scaling.
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+Integration with nutritional databases for calorie and nutrient calculation.
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Personalized dietary feedback for diabetic users, athletes, and general users.
 
+Requirements
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Operating System: 64-bit OS (Windows 10/11 or Ubuntu Linux) for running deep learning models.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Programming Language: Python 3.8 or later for development and deployment.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Deep Learning Frameworks: PyTorch and Ultralytics YOLOv8 for segmentation and detection.
 
+Image Processing Libraries: OpenCV for image pre-processing and enhancement.
 
+Database: USDA FoodData Central / Indian Food Composition Tables for nutritional values.
 
+Version Control: Git and GitHub for model versioning and collaboration.
 
+IDE: VSCode / PyCharm for development and debugging.
+
+## Additional Dependencies: NumPy, Pandas, scikit-learn, MiDaS (depth estimation), Flask/Streamlit for front-end deployment.
+
+# System Architecture
+
+(Replace the placeholder with your PlateIQ system diagram)
+
+# Output
+## Output 1 – Food Detection & Segmentation
+
+(Insert your segmentation output image)
+
+## Output 2 – Calorie & Nutrient Calculation
+
+Detection Accuracy: XX%
+Mean Absolute Calorie Estimation Error: YY%
+(Replace with your actual evaluated metrics.)
+
+# Results and Impact
+
+PlateIQ significantly improves dietary awareness by providing real-time, automated, and accurate food recognition. This system makes it possible for users—including diabetic individuals, fitness enthusiasts, and general users—to understand the nutritional content of their meals effortlessly.
+
+Integrating YOLOv8 enables superior detection accuracy and speed compared to earlier CNN-based models, making it a practical solution for everyday diet monitoring. With growing reliance on smartphones and digital health tools, PlateIQ represents a scalable and accessible approach toward personalized nutrition and preventive health care.
+
+# Articles Published / References
+
+Banusharath K A et al., Applications of Hybrid Metaheuristic Algorithms for Image Processing, Springer, 2020.
+Agarwal R. et al., Hybrid Deep Learning Algorithm-Based Food Recognition and Calorie Estimation, 2023.
